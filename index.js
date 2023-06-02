@@ -62,7 +62,7 @@ app.post('/upload', upload.single('file'), async(req, res) => {
 
 
 
-console.log("Uploaded sucessfully");
+console.log("Uploaded sucessfullys");
 // fs.unlink(req.file.path, (error) => {
 //     if (error) {
 //       console.error(error);
